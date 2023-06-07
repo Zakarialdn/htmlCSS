@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="css/formulaire.css">
+</head>
+<body>
+    <form action="mapage.php" method="get"> <!-- form = pour faire un formulaire -->
+        <!-- je déclare mon formulaire avec la balise form -->
+      <label for="pseudo">
+        PseudoName
+      </label> 
+      <input type="text" id="pseudo" name="pseudo" placeholder="pseudo_exemple" required > <!-- input = barre d'info (mail,mdp,pseudo)-->
+      <!-- le type précise le type de donnéé à récupérée (text),
+             name sera utilisé en php pour récupérer les donnée,
+             le placeholder contient le text qui apparaitre dans l'input,
+            required : champs obligatoire -->
+    <br>
+     <!-- mot de passe -->
+     <label for="mdp">mot de passe</label>
+     <input type="password" name="mdp" placeholder="mot de passe" required>
+     <br>
+     <!-- email -->
+     <label for="email">email</label>
+     <input type="email" class="a" name="email" placeholder="email">
+        <br> <br>
+       <label for="photo">photo</label>
+       <input type="file" name="photo"> <br> 
+       <fieldset> <!-- contour de tableau-->
+        <legend>choix multiple </legend> <!-- legend = titre -->
+       <!-- case à cocher = checkbox -->
+       <!-- checkbox = plusieurs choix -->
+        <label for="choix multiple"> quel destination chosissez-vous?</label> <br>
+        <input type="checkbox" name="pays" value="Italie"> 
+        <label for="italie">Italie</label> <br>
+        <input type="checkbox" name="pays" value="tunisie"> 
+        <label for="tunisie">Tunisie</label>  <br>
+        <input type="checkbox" name="pays" value="espagne"> 
+        <label for="espagne">Espagne</label>
+        <br>
+        <!-- radio = un choix -->
+        <label for="un_choix"> qui seront vos accompagnateurs?</label> <br>
+        <input type="radio" name="accompagnateur" value="réponse1"> 
+        <label for="italie">En famille</label> <br>
+        <input type="radio" name="accompagnateur" value="réponse2"> 
+        <label for="tunisie">Tous seul</label>  <br>
+        <label for="selection">Avion préferer </label>
+        <select name="avion" id="avion">
+            <optgroup label="trop chère">
+                <option value="airfrance">airfrance</option>
+                <option value="quatariaairways" selected>quatariaairways</option>
+            </optgroup>
+           <optgroup label="pas chère">
+            <option value="transavia">transavia</option>
+        </optgroup>
+            
+        </select>
+    </fieldset>
+    <br>
+    <!-- zone de texte  -->
+    <label for="commentaire">commentaire </label>
+    <textarea name="commentaire" id="commentaire" cols="30" rows="10"></textarea> <br>
+    <!-- rows = nombre de ligne ,
+    cols= nombre de colones/caractère -->
+    <!-- bouton d'envoi -->
+    <!-- valider le formulaire -->
+       <input type="submit" name="inscription " value="valider">
+    <!-- annuler / vider le formulaire -->
+    <input type="reset" name="annuler" value="annuler">
+</form>
+
+</body>
+</html>

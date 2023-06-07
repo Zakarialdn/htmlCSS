@@ -1,0 +1,15 @@
+p,h1 {
+    color: blue;
+}
+.bienvenue{
+   color :aquamarine 
+}
+.ici{
+    font-size: 30px;
+}
+/* attention les commantaire en css ne se font pas de la meme manière que html */
+/* ne pas oublier de tester le ficihier style */
+selecteur {
+    propriété: valeur; 
+    /* le point vergule est obligatoir pour ne pas avoir d'ereurs */
+}
