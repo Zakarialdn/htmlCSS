@@ -1,0 +1,237 @@
+
+.grey{
+
+    background-color: rgb(2, 2, 2);
+
+}
+
+.purple{
+
+    background-color:rgb(77, 10, 77);
+
+}
+
+.purple1{
+
+    background-color: rgb(126, 6, 30);
+
+}
+
+.purple2{
+
+    background-color: rgb(248, 9, 57);
+
+}
+
+
+
+
+
+
+.blanc{
+
+    background-color:#FFC97C;
+
+}
+
+
+
+
+
+.blanc1{
+
+
+
+
+}
+
+
+
+
+
+.beige{background-color: #E29C68;}
+
+
+
+
+
+
+
+.g1 {
+
+    background-color: rgb(47, 151, 94);
+
+}
+
+
+
+
+
+.g2{
+
+    background-color: rgb(0, 233, 144);
+
+}
+
+
+
+
+
+.g3{
+
+    background-color: green;
+
+}
+
+
+
+
+
+
+.g4{background-color: rgb(1, 66, 1);}
+
+
+
+
+
+.bleu{background-color: blue;}
+
+
+
+
+.bleu1{
+
+    background-color: cornflowerblue;
+
+}
+
+
+
+
+
+.bleu2{
+
+    background-color: rgb(107, 201, 255);
+
+}
+
+
+
+
+.bleuciel{
+
+    background-color: rgb(3, 248, 248);
+
+}
+
+
+
+
+.jaune{
+
+    background-color: yellow;
+
+}
+
+
+
+
+/* ajustement tu tableau eetc.. */
+
+tbody{
+
+
+
+
+    padding: 200px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+tr,td{
+
+
+
+
+    border: 1px solid black;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+td {
+
+
+
+
+width:30px;
+
+
+
+
+height:30px;
+
+
+
+
+ border:1px solid darkgrey;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+table{
+
+
+
+
+width:30%;
+
+
+
+
+ margin:auto;
+
+
+
+
+ border-collapse: collapse;
+
+
+
+
+}
+
+
+
+
+*{margin: auto;}

@@ -1,0 +1,11 @@
+.block{
+    display: block;
+} /* display : convertir/changer*/
+.inline{
+    display:inline;
+}
+h1,h3,div,a,p,span,section{
+    text-align: center;
+    border: 1px solid orchid;
+    background-color: lightblue;
+}

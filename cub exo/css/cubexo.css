@@ -1,0 +1,24 @@
+body{
+    width: 960px;
+    margin:0 auto;
+}
+.green{
+    border:2px solid black;
+    width: 9em;
+    height:9em;
+    text-align:center;
+}
+.vide{
+    width:9em;
+    height:9em;
+    color: transparent;
+}
+.bloc{
+    display:flex;
+    flex-wrap: wrap;
+}
+.green{
+    background-color:green;
+    color:#000;
+    border-radius: 10% 20% 30% 40%;
+}

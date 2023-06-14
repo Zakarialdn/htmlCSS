@@ -1,0 +1,63 @@
+body{
+    width: 995px;
+    background-color: beige;
+    color: white;
+    margin:0 auto;
+}
+header{
+background-color: coral;
+height: 55px;
+text-align: center;
+}
+nav{
+    background-color: blueviolet;
+    height: 40px;
+    border: white;
+}
+section{
+background-color: black;
+/* height: 500px; */
+display: flex;
+flex-wrap: wrap;
+
+
+}
+.Grande{
+border:2px white solid;
+background-color: aqua;
+display: flex;
+flex-wrap: wrap;
+width: 49.7%;
+
+
+}
+.Petite{
+    width: 49.4%;
+    height: 160px;
+    border: 1px white solid;
+
+    
+
+}
+.couleur_1{
+    background-color: gray;
+
+}
+.couleur_2{
+    background-color: cyan;
+
+}
+.couleur_3{
+    background-color: crimson;
+
+}
+.couleur_4{
+background-color: darkgoldenrod;
+}
+.footer{
+    background-color: cornflowerblue;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+
+}

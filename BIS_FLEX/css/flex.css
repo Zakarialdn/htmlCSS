@@ -1,0 +1,91 @@
+h1{
+    background-color: #3a4454;
+    color: whitesmoke;
+    padding: 1em;
+}
+h2{
+    background-color: #6b376b;
+    color: white;
+    padding: 0.5em;
+}
+h3{
+    background-color: #c2b2b4;
+    color: #610f7f;
+    padding: 0.25em;
+}
+.contenu_1{
+    border: 1px solid orange;
+    height: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    /* la valeur par défault est row, les valeur possible( column , row , row-reverse, column-revers) */
+    justify-content: space-around; 
+    /* la valeur par default ici c'est flex-start , les valeurs possible ici (centre , flex-end, flex-star, space-between, space-around) */
+    /* space-between: les élements sont réparties sur la totalité de la ligne (l'axe principale qui est définit par flex direction) en cryant des espaces entre les elements 
+    space-around: les élements sont réparties sur la totalité de la ligne en cryant des espaces alentours des élements centre: il va centrer les élements dans le conteneur*/
+    align-items:flex-end ;
+    /* align-items permet d'aligner l'élement des élements flexible au sein d'une ligne (ou de colone ) selon l'axe secondaire */
+    /* la valeur par défault est flex-start, les valeurs disponible(flex-end, flex-start,centre, baseline */
+
+}
+.item1{
+    background-color: lightsalmon;
+    width: 80px;
+    height: 80px;
+     
+    /* flex-grow: 1; */
+     /* on donne la possibilité aux élements flexibles de s'étirer pour occuper l'espace vide dans le conteneur avec flex-grow:1,  */
+    order: 2;
+    /* il change l'order d'affichage d'un élement selon la direction défini dans flex-direction (row: de gauche à droite et column: du haut en bas, row-reverse: de droite à gauche , column-reverse:du bas en haut  */
+
+}
+.item2{
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    order:3;
+    /* flex-grow: 3; */
+    /* item2 plus grand 3 fois que item1 et item3  */
+
+    flex-basis: 120px;
+    /* elle permet de définir une nouvelle taille pour l'élement : si l'élement est placer horizontalement on changera le width, si les élememnts sont placer verticalement on changera la valeur height  */
+}
+.item3{
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    /* flex-grow: 1; */
+    order: 1;
+     
+    flex-shrink: 1;
+    /* pour éviter que les éléments dépassent notre conteneur on utilise cette propriété, permet de rétricire notre élement (avec des valeur positif) */
+    
+    
+}
+
+.contenu_2{
+    border: 1px solid orange;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.contenu_3{
+    border: 1px solid orange;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contenu_4{
+    border: 1px solid orange;
+    height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap:nowrap;
+     /* nowrap :les élement seront obligatoirement sur une seul ligne */
+     /* wrap : pouvoir d'aller sur d'autre ligne  */
+     
+}

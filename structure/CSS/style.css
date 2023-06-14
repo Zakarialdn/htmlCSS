@@ -1,0 +1,11 @@
+p,h1  {
+    color:aqua;
+}
+/* attention les commentaires en css ne se font pas de la meme manière que html */
+/* ne pas oublier de tester le ficher style */
+/* selecteur {
+    propriété: valeur;
+    /* le point virgule est obligatoire pour ne pas avoir d'erreurs */
+.bienvenue{
+    color: darkgoldenrod;
+}

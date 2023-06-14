@@ -1,0 +1,55 @@
+h1{
+    background-color:darkcyan ;
+    color: white;
+}
+/* on a sélectionné tous les balise <p> à l'interieur de la balise <section> */
+section p {
+    color: red;
+}
+/* premier <p> */
+section p:first-child{
+    color:blue; 
+}
+/*  dernier <p> */
+section p:last-child{
+    color: green;
+}
+/* les <p> pairs (even) */
+section p:nth-child(even){
+    color:lightblue;
+}
+/* les <p> impaire (odd) */
+section p:nth-child(odd){
+    color:brown;
+}
+/* les <p> 3 et 10 mettre les chiffres sert a selectionner manuellement les ligne a modifier */
+/**/
+section p:nth-child(3), section p:nth-child(10){
+    color:orange;
+}
+.zone1 {
+    color: red;
+}
+.zone2{
+    color:#008080;
+}
+.lime{
+    color:#00ff00;
+}
+/* avant le nom ID je met # */
+#zone3{
+    background-color: #f5deb3;
+}
+/* rajouter contenu après l'ID zone3 */
+#zone3:after{
+    content: " rajouter après";
+}
+#zone3::before{
+    content: "rajouter avant";
+    background-color: cyan;
+}
+
+ul li:nth-child(even){
+    background-color:red;
+    color: white;
+}

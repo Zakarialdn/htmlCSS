@@ -1,0 +1,31 @@
+p{
+    display:inline; /* display= modifier l'affichage selectionnner*/
+
+}
+body{
+    margin:0 auto;
+    /*1 hauteur 2 droite 3 bas 4 gauche */
+    background-color: rgb(75, 228, 88);
+}
+div{
+    width:90%;
+    margin:0auto;
+    background-color: lightblue;
+}
+.boite{
+    height:11vh;
+    width:18vh;
+    padding:5vh;
+    background-image: url(/broly.jpg);
+    border : 5px solid rgb(255, 255, 255); /*taille,style,couleur : de la bordure*/
+    margin: 2vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left; /* effet flottant , permet de placer des balises cote a cote alors que selon le flux de web standard les elements se placent les uns au dessus des autres */
+}
+.boite:hover{
+    margin-top: 10vh;
+}
+.clear{
+    clear: both; /*supprime l'effet flottant/revenir a la ligne */
+}

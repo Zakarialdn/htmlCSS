@@ -1,0 +1,53 @@
+header{
+background-color: aqua;
+height: 60px;
+width: 800px;
+border: 1px black solid;
+line-height: 60px;
+text-align: center;
+}
+footer{
+background-color: rgb(141, 221, 11);
+height: 25px;
+border: 1px black solid;
+text-align: center;
+}
+
+.ZG,.ZD{
+    height: 530px;
+    width: 150px;
+    line-height: 530px;
+    background-color: blue;
+}
+.ZM{
+    background-color: #55d87c;
+    width: 500px;
+    height: 450px;
+    line-height: 530px;
+    display: flex;
+
+}
+.zoneverte{
+    border: 1px solid;
+    height: 448;
+    width: 98px;
+    line-height: 530px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.conteneur{
+     width: 800px;
+     height: 600px;
+     margin: 0 auto;
+     display: flex;
+     flex-wrap: wrap;
+}
+footer{
+    background-color: gold;
+    width: 500px;
+    height: 80px;
+    position: relative;
+    left:150px;
+    bottom:80px
+}

@@ -1,0 +1,53 @@
+body{
+    width:960px;
+    margin: 0 auto;
+
+}
+
+.green,.pink,.vert,.blue{
+    border:2px solid black;
+    width:16%;
+    height:10em;
+    text-align: center;
+}
+/* bloc empty pour les carres vides */
+.empty{
+    width:16%;
+    height:10em;
+    color:transparent;
+
+}
+
+.bloc{
+    display:flex;
+    flex-wrap: wrap;
+     
+}
+/* bloc vert */
+.green{
+    background-color:green;
+    color:#000;
+    border-radius: 10% 20% 30% 40%;
+
+}
+/* bloc bleu */
+.blue{
+    background-color: cyan;
+    color:#000;
+    border-radius: 40% 0%;
+
+}
+/* bloc vert clair */
+.vert{
+  background-color: aquamarine;;
+    color:#000;
+    border-radius: 50%;;
+
+}
+/* bloc rose */
+.pink{
+    background-color:darksalmon;
+    color:#000;
+    border-radius: 15% 40%;
+
+}

@@ -1,0 +1,40 @@
+*{
+    /*font-family = changer la police d'ecriture */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    width:50%; /* width = largeur de ma page 50% de l'ecran */
+    margin:auto; /* margin = gestion automatique des marges pour que mon tableau soit centré */
+}
+table{
+    /* border = contours du tableau */
+    border:4px solid #483d8b;
+    width:90%; /* width = largeur du tableau par rapport a son contenant donc ici au body */
+    border-collapse: collapse; /* border-collapse = assembler*/
+}
+thead,tfoot{
+    background-color: #e6e6fa;
+    border: 3px solid #6a5acd;
+}
+tbody{
+    border:1px solid #6a5acd; 
+}
+th{
+    /*dotted = en pointillé */
+    border:1px dotted #6a5acd;
+    background-color: #e6e6fa;
+    width: 25%;
+    /* padding = espace de l'affichage */ 
+    padding:4px; 
+}
+td{
+    border : 1px dotted #6a5acd;
+    text-align: center;
+    font-size: 100%;
+    padding: 5px;
+}
+td:first-child{
+    /* 1er <td> pour alligner le a gauche de la premiere cellule de chaque rangée donc changera seulement tout les 1 er <td> de chaque */
+    text-align: left;
+    background-color: #e6e6fa;
+}

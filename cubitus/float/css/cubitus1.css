@@ -1,0 +1,36 @@
+.boite1, .boite2{
+    border: 1px solid black;
+}
+.boite1{
+    height:3em;
+    width:3em;
+    margin:2vh;
+    background-color: blueviolet;
+    border-radius: 25%;
+    padding :5vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left; 
+
+}
+.boite2{
+    height:3em;
+    width:3em;
+    margin:2vh;
+    background-color: greenyellow;
+    border-radius: 25%;
+    padding :5vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left; 
+}
+.body{
+    margin:auto;
+    background-color: aliceblue;
+}
+div{
+    border:1px
+}
+.clear{
+    clear: left;
+}

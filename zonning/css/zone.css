@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    margin:10px auto;
+    width: 80%;
+    font-family: cursive; 
+}
+
+section{
+    border: 1px solid black;
+    background-color: aquamarine;
+    height: 30em;
+    padding: 2em;
+}
+header{
+    border: 1px solid black;
+    background-color:rgb(119, 15, 15) ;
+}
+nav{
+    border:2px solid black;
+    background-color: lightgreen;
+}
+footer{
+    border: 1px solid rgb(119, 15, 15);
+    background-color:rgb(119, 15, 15);
+}
+.milieu{
+border: 1px solid black;
+height: 28em;
+background-color:yellow;
+}

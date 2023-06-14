@@ -1,0 +1,12 @@
+.zizou{
+    background:linear-gradient(to left,blue,purple)
+}
+body{
+    text-align: center;
+    color: red;
+    background-image: url(https://img.filmsactu.net/datas/fiches/a/n/animation/xl/animation-5c87bab5a6afd.jpg);
+}
+.code{
+    color: greenyellow;
+    background-color: black;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/tableau.css">
+</head>
+<body>
+    <!-- ouverture du tableau -->
+    <table>
+        <!-- caption> = titre du tableau (cellules fusionnées) -->
+        <caption> ventes</caption>
+        <!-- en tete du tableau -->
+        <thead>
+            <!-- tr = rang (t= tableau/ r=row=rangée) -->
+        <tr>
+                <!-- th = titre ou en-tetes (t= tableau/h = head = tete) -->
+            <th>jour</th>
+            <th>smartphone</th>
+            <th>tablette</th>
+            <th>portables</th>
+        </tr>
+        </thead>
+        <!-- tfoot = bas/fin du tableau / pour les normes W3c mettent la balise tfoot avant celle du corps du tableau tbody -->
+        <tfoot>
+            <tr>
+                <!-- td = cellules -->
+                <td>Total</td>
+                <td>30</td>
+                <td>60</td>
+                <td>28</td>
+            </tr>
+        </tfoot>
+
+        <tbody>
+            <tr>
+                <td>lundi</td>
+                <td>2</td>
+                <td>6</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>mardi</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>mercredi</td>
+                <td>1</td>
+                <td>5</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>jeudi</td>
+                <td>21</td>
+                <td>4</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>vendredi</td>
+                <td>5</td>
+                <td>45</td>
+                <td>5</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+<!-- colspan = fusionner les cases de gauche a droite-->
+<!-- rowspan = fusionner les cases de haut en bas -->

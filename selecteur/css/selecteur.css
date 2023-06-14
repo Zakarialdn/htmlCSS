@@ -1,0 +1,52 @@
+h1{
+    background-color: black;
+    color: chartreuse;
+}
+ /* on a selectioné tout les balises <p> a l'interieur de la balise <section> */ 
+ section p{
+    color: red;
+}
+/* first-child = premier <p> */
+section p:first-child{
+    color: blue;
+}
+/* lars-child = le dernier <p> */
+section p:last-child{
+    color: green;
+}
+/* nth-child(even) = les <p> paires */
+section p:nth-child(even){
+    color: lightblue;
+}
+/* nth-child(odd)les <p> impaire */
+section p:nth-child(odd){
+    color: brown;
+}
+/* les <p> 3 et 10 */
+section p:nth-child(3), section p:nth-child(10){
+    color: orange;
+}
+.zone1 {
+    color: red;
+}
+.zone2 {
+    color: greenyellow;
+}
+.lime {
+    color: aqua;
+}
+#zone3{
+    background-color: #f5deb3;
+}
+/* rajouter contenu apres l'ID zone3 */
+#zone3:after{
+    content: " rajouter apres";
+}
+#zone3:before{
+    content:"rajouter avant";
+    background-color: cyan;
+}
+ul li:nth-child(2){
+    background-color: red;
+    color: white;
+}

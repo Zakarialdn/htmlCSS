@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lien</title>
+    <link rel="stylesheet" href="css/lien.css">
+</head>
+<body>
+    <h1 id="top">les differents lien d'une page html </h1>
+    <p>les liens permettent de passer d'une page a une autre dans le meme site, vers un autre site , comme d'autre action </p>
+    <h2>les ancres : liens a l'interieur de la meme page site </h2>
+    <p>les ancres sont particulierement utile sur les sites web integrant beaucoup de contenu</p>
+    <p> <a href="#interieur"> lien interieur sur une page site</a></p>
+    <p><a href="#onglet"> lien ouvrant un nouvelle onglet </a></p>
+    <p><a href="#site"> lien vers un autre site web</a>/p>
+    <p><a href="#telecharger"> lien de telechargement d'un fichier</a></p>
+    <p><a href="#see"> lien de visualisation d'un fichier pdf</a></p>
+    <p><a href="#download"> lien de telechargement d'un fichier pdf</a></p>
+    <p><a href="#imageclic">lien sur une image</a></p>
+    <p><a href="#print"> lien permettant d'imprimer la page en cours</a></p>
+    <h2 id="interieur">lien interieur sur une autre page du site</h2>
+    <p> la balise &lt;a> permet de créer un lien hypertext et l'attribut <em>href</em> permet de definir la destination du lien</p>
+    <a href="lien2.html">cliquer ici pour aller en page 2</a>
+    <p class="code">&lt;a href="index2.html>cliquer ici pour aller en page2 &lt;/a><a href="top"></a></p>
+<hr>
+    <h2 id="onglet"> lien ouvrant un nouvelle onglet</h2>
+    <p> sans fermer l'onglet du site consulté , ona va consulter un autre site en ouvrant un nouvel onglet</p>
+    <a href="lien2.html" target="_blank">page 2 dans un nouvel onglet</a>
+    <p> &lt;a> href="lien2.html" target="_blank"> page 2 dans un nouvel onglet &lt;/a> </p>
+    <!-- target="_blank" = ouvre un nouvelle onglet en cliquant sur le lien -->
+    <a href="#top"></a>
+<hr>
+<h2 id="site">lien vers un autre site web</h2>
+<p>l'attribut <em>href</em> permet de definir la destination du lien et l'attribut <em>title</em>affiche une info-bulle au survol de la souris</p>
+<a href="http://www.20minutes.fr" title="rendre sur 20minutes - actualités">20 minutes</a>
+<p class="code">&lt;a href="http://www.20minutes.fr" title="se rendre sur 20 minutes - actualités"> 20 minutes&lt;/a></p>
+<p><a href="#top">top</a></p>
+<hr>
+<h2 id="telecharger">lien de telechargement d'un fichier</h2>
+<!-- 2 manieres -->
+<p> ce lien permet de proposer le telechargementd'un fichier attention a l'arborescence des repertoire si votre fichier n'est pas dans le meme repertoire que fichier lien.html </p>
+<a href="document.doc">telecharger le fichier</a>
+<p class="code">&lt;a href="document.doc">telecharger le fichier</p>
+<p>ce lien dotté de l'attribut <em>download</em> propose le telechargement d'un fichier</p>
+<a href="image.pdf" download>telecharger l'image</a>
+<p class="code">&lt;a href="image.pdf" download>telecharger l'image&lt;/a></telecharger></p>
+<p><a href="#top">top</a></p>
+<hr>
+<h2>lien de visualisation d'un fichier pdf </h2>
+<p>ce lien ouvre un document pdf directement dans la page web</p>
+<a href="image.pdf">afficher l'image</a>
+<p class="code">&lt;a href="image.pdf">afficher l'image&lt;/a></p>
+<p><a href="#top"></a></p>
+<hr>
+<h2>lien sur l'image</h2>
+<p>ce lien une autre url en cliquant sur une image</p>
+<a href="http://www.20minutes.fr"><img src="image2.jpg" alt="un lion"></a>
+<p class="code">&lt;a href="http://www.20minutes.fr">&lt;img src="img.jpg" alt="un lion">&lt;/a></p>
+<p><a href="#top">top</a></p>
+<h2>lien permettant d'imprimer la page en cours</h2>
+<a href="" onclick="window.print()"></a>
+<p class="code">&lt;a href="onclick="window.print()">imprimer la page&lt;a></p>
+<p><a href="#top">top</a></p>
+<hr>
+</body>
+</html>
