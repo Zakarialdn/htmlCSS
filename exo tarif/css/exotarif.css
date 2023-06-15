@@ -1,0 +1,106 @@
+body{
+
+    font-family:  sans-serif;
+
+    font-size: 1.5em;
+
+}
+
+ul{
+    /*selectionne tout les liste <ul> */
+
+    list-style: none; /*supprimer les puces des listes*/
+
+    float: left; /*effet flottant a gauche*/
+
+    margin: 0; /*marge exterieur*/
+
+    padding: 0; /*marge interieur*/
+
+}
+
+.left{
+
+    margin-top: 5em;
+
+}
+
+.left ul {
+
+    margin: 3.2em 0 0 0;
+
+}
+
+.left ul li{
+
+  border-bottom: 1px solid  #ccc; /*selectionne tout les <li> de la liste <ul> ayant la classe .left*/
+
+  border-left: 1px solid #ccc;
+
+  padding: 1em;
+
+  width: 10em;
+
+}
+
+.left ul li:first-child{ /*premiers <li> de la liste <ul> ayant la class .left*/
+
+    border-top: 1px solid #ccc ;
+
+}
+
+.liste li{
+
+    border-left: 1px solid #ccc ;
+
+
+
+
+}
+
+.right .change ul li{ /*tous les <li> de la liste <ul> ayant la class. change elle meme enfants de la class .right*/
+
+    border-top: 1px solid #ccc ;
+
+    border-right:1px solid #ccc ;
+
+    width: 10em;
+
+    text-align: center;
+
+    padding: 1em;
+
+}
+
+.right .change ul li:last-child{ /*le dernier <li> de la liste <ul> ayant la class .change elle meme enfants de la class .right*/
+
+    border-bottom: 1px solid #ccc;
+
+}
+
+.right .change ul li:first-child{ /*le dernier <li> de la liste <ul> ayant la class .change elle meme enfants de la class .right*/
+
+    background-color: gray;
+
+    color: white;
+
+    font-weight: bold;
+
+}
+/*effet de transition au survol de la souris*/
+.right .change ul:hover{ /*au survol de la souris on selectionne la liste <ul> ayant la class .change elle meme enfant de la class .right */
+    background: linear-gradient(#d5d5d5,#8a8a8a); /*degrer de la couleur*/
+    transition-duration: 2s; /*durée de l'effet de transition*/
+    cursor: pointer; /*changement de l'affichage du curseur*/
+    transform: scale(1.4); /*l'echelle de zoom*/
+
+}
+.change:hover #prenium{
+    color: #b9f2ff;
+}
+.change:hover #gold{
+    color: #ffd700;
+}
+.change.change:hover #silver{
+    color: #bfc1c2;
+}
