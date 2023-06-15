@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMMET</title>
+    <link rel="stylesheet" href="css/emmet.css">
+</head>
+<body>
+    <header>
+        <h1>codé avec emmet</h1>
+    </header>
+    <nav>
+        <a href="#html">HTML</a>
+        <a href="CSS">CSS</a>
+    </nav>
+    <h2 id="html">HTML</h2>
+    <!-- div<h3+code*2+p -->
+        <div>
+            <h3>ajouter un element enfant : ">"</h3>
+            <code>li>p</code>
+            <code>ul>li>p</code>
+            <p>résultat</p>
+        </div>
+        <!-- div>h3+code+p{resultat :}-->
+        <div>
+            <h3>ajouter un frère: "+"</h3>
+            <code>ul>li>p+a</code>
+            <p>resultat :</p>
+        </div>
+        <div>
+            <h3>multiplier un élement :"*"</h3>
+            <code>ul>li*3>p</code>
+            <p>resultat :</p>
+        </div>
+        <div>
+            <h3>ajouter une class: "."</h3>
+            <code>ul.white</code>
+            <p>resultat :</p>
+        </div>
+        <div>
+            <h3>grouper des elements : "()"</h3>
+            <code>ul>(header>ul>li*2>a)footer>p</code>
+            <code>ul>(li>p+img+a)+li*2>p>img</code>
+            <p>resultat :</p>
+        </div>
+        <div>
+            <h3>inserer du text dans un element: "{}"</h3>
+            <code>a{clique ici}</code>
+            <code>p>{click}+a{here}+{to continue}</code>
+            <p>resultat :</p>
+        </div>
+        <div>
+            <h3>ajouter une numérotation: "$"</h3>
+            <code>ul>li.item$*5</code>
+            <p>resultat :</p>
+        </div>
+        <div>
+            <h3>ajouter un id : "#"</h3>
+            <code>ul>li#id</code>
+            <p>resultat :</p>
+        </div>
+        <div>
+            <h3>commencer la numerotation au chiffre voulu: "S@X"</h3>
+            <code>ul>li.$@3*5</code>
+            <p>resultat :</p>
+        </div>
+        <div>       
+        <h3>numeroter dans l'ordre decroissant: "S@-"</h3>
+            <code>ul>li.$@-*5</code>
+            <p>resultat :</p>
+        </div>
+        <div>       
+        <h3>remonter d'un element enfant: "^"</h3>
+            <code>div>p>em{hello}^a</code>
+            <!-- div>(p>em{hello}}+a)-->
+            <p>resultat :</p>
+        </div>
+        <div>       
+        <h3>ajouter un attribut: [nom:valeur]</h3>
+            <code>img[src="https://devloper.mozilla.org/" alt="documentation"]</code>
+            <p>resultat :</p>
+        </div>
+       
+</body>
+</html>
