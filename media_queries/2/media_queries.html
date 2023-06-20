@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/media_queries.css">
+</head>
+<body>
+    <!-- les media queries permettent de reorganiser les elements dans la page pour avoir avoir un affichage claire et visible de tous les elements -->
+    <!-- les media queries permettent de definir une fourchette au dela dee laquelle l'affichage doit etre different -->
+    <!-- les differents taille d'ecran possible (mobile<768px)(tablette:768px a 992px)(ordi 992px a 1200px)-->
+        <!-- le responsive c'es de cree un design qui s'adapte sur n'importe quel taille d'ecran-->
+        <!-- les medias queries sont des nouveau css3, on va pas ajouter d'autre css , mais plustot on va appliquer le css avec certaines regle et condition-->
+        <!-- la syntaxe generale de media queries:
+        @media screen and (max-width:768px{
+            h1{
+
+            }
+            p{
+
+            }
+        })
+        //ajouter le css pour reorganiser la page , je change la taille , marge , police... 
+        @media screen ou sprint (impression) ou all (screen et print)   
+    -->
+    <div class="container">
+        <header>haut du site</header>
+        <nav>
+            <a href="">acceuil</a>
+            <a href="">actualité</a>
+            <a href="">boutique</a>
+            <a href="">panier</a>
+            <a href="">FAQ</a>
+        </nav>
+        <main>
+            <section>
+                <div class="zone1">1</div>
+                <div class="zone2">2</div>
+                <div class="zone3">3</div>
+                <div class="zone4">4</div>
+            </section>
+        </main>
+        <footer>
+            le bas du site
+        </footer>
+    </div>
+    
+</body>
+</html>

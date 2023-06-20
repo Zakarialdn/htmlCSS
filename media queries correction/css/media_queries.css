@@ -1,0 +1,111 @@
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+header{
+    background-color: #8E3557;
+    height: 100px;
+}
+nav{
+    background-color: #4A1A2C;
+    height: 50px;
+    padding-left: 2em;
+    padding-top: 35px;
+    
+}
+nav a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 2em;
+    border-right: 1px solid white;
+    padding-right: 2em;
+}
+nav a:last-child{
+    border-right: none;
+}
+footer{
+    background-color: palevioletred;
+    height: 100px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid black;
+}
+section div{
+    width: 32vw;/*l'équivalent de 35% largeur*/
+    height: 45vh;
+}
+.zone1 , .zone4{
+    background: linear-gradient(to left,#40a497,#6840a4);
+}
+.zone2, .zone3{
+        background-color: #73ADCE;
+
+    
+}
+.zone3 , .zone4{
+    margin-top: 15px;
+}
+@media screen and (min-device-width:992px) and (max-device-width:1200px){
+    /* on a choisi les tailles d'écran entre 992px et 1200px */
+    /* ajouter les css pour réajuster l'affichage pour les écrans supérieur à 992px */
+    .zone2 ,.zone3{
+        background-color: pink;
+    }
+    .zone1 , .zone4{
+        background: linear-gradient(to left,#0d22ae,#a4405c);
+    }
+    .container{
+        width: 90%;
+    }
+    section div{
+        width: 41vw;
+    }
+}
+@media screen and (min-device-width:768px) and (max-device-width:991px){
+    .container{
+        width: 90%;
+    }
+    .zone2 ,.zone3{
+        background-color: rgb(192, 255, 209);
+    }
+    .zone1 , .zone4{
+        background: linear-gradient(to left,#6bae0d,#a47540);
+    }
+}
+@media screen and (max-width:768px){
+    .container{
+        width: 90%;
+    }
+    .zone3{
+        background-color: rgb(255, 192, 220);
+    }
+    .zone1 , .zone4{
+        background: linear-gradient(to left,#ae0d0d,#4540a4);
+    }
+    section{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a{
+        display: block;
+        font-size: 16px;
+        border: none;
+
+    }
+    nav{
+        height: 150px;
+        line-height: 30px;
+    }
+    .zone2{
+        margin-top: 15px;
+       
+        background-image: url(/cake.png);
+        background-size: 32vw 45vh ;
+    }
+}

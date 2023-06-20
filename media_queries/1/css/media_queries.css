@@ -1,0 +1,22 @@
+.zone-adaptive{
+    background-color: red;
+    color: white;
+    padding:10px;
+}
+@media (min-width:768px){
+    .zone-adaptive{
+        background: aquamarine;
+    }
+}
+@media(min-width:992px){
+    .zone-adaptive{
+        width:970px;
+        background: blue;
+    }
+}
+@media(min-width:992px){
+    .zone-adaptive{
+        width:1170px;
+        background: green;
+    }
+}

@@ -1,0 +1,137 @@
+body{
+    margin: auto;
+    font-size: 16px;
+    color: black;
+    background-image: url(/revengers.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    width: 960px;
+
+}
+header{
+    background-color: silver;
+    padding: 20px;
+    text-align: left;
+    border: 1px black solid;
+    background-image: url(/galaxie.jpg);
+    background-size: cover;
+
+}
+nav{
+    height: 3em;
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 3em;
+}
+main{
+    border:1px black solid;
+    padding: 20px;
+
+}
+nav a{
+    border: 1px black solid;
+    color: silver;
+    text-decoration: none;
+    width: 20%;
+    font-size: 20px;
+    height: 100%;
+    padding-left: 2em;
+    margin: 0;
+    border-right:1px white solid ;
+
+}
+nav a:last-child{
+    border: none;
+}
+footer{
+    background-color: silver;
+    border: 1px black solid;
+    padding: 20px;
+    background-image: url(/galaxie.jpg);
+    background-size: cover;
+}
+
+section div{
+    width: 40%;
+    margin: 1em;
+    height: 15em;
+    border: 1px black solid;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.zone1, .zone4{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.34) 48%,rgba(0,0,0,0) 100%);
+    background-image:url(/muzan.jpg) ;
+    background-size: cover;
+}
+.zone2{
+    background-image: url(/gojo.jpg);
+    background-size: cover;
+}
+nav a:hover{
+    background-color: white;
+    color: gray;
+}
+.zone3{
+    background-image: url(/taiga.jpg);
+    background-size: cover;
+}
+.zone4{
+     background-image: url(/naruto.jpg);
+    background-size: cover;
+}
+@media screen and (min-width:992px)and (max-width:1200px){
+/* on a choisi les taille d'écran entre 992px et 122px  */
+/* ajouter les css pour reajuster l'affichage pour les écrans supieur à 992px */
+
+.zone2 , .zone3{
+background-image: url(/galaxie.jpg);
+}
+    
+}@media screen and (min-width:768px)and (max-width:991px){
+    .container{
+        width: 90%;
+    }
+    .zone2 , .zone3{
+        background: linear-gradient(to left,#0d22ae,#a4405c);
+    }
+    .zone1, .zone4{
+        background: linear-gradient(to left,#6bae0d,#a47540);
+    }
+}
+@media screen and (max-width:768px){
+        .container{
+        width: 90%;
+    }
+    .zone2 , .zone3{
+        background: linear-gradient(to left,#0d22ae,#a4405c);
+    }
+    .zone1, .zone4{
+        background: linear-gradient(to left,#6bae0d,#a47540);
+    }
+    section{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a{
+        display: block;
+        font-size: 16px;
+        border: none;
+    }
+    nav{
+        height: 150px;
+        line-height: 30px;
+    }
+    .zone2{
+        margin-top: 15px;
+        background-image: url(/revengers.jpg);
+        background-size: 32vw 45vh;
+    }
+}
+

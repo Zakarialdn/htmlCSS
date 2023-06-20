@@ -1,0 +1,70 @@
+*{
+    font-family: sans-serif;
+    /* Police d'écriture */
+}
+nav{
+    background: #0000;
+    color: #ffff;
+    padding: 0 0.5em;
+    position : fixed;
+    text-align: center; 
+    width: 100%;
+    top:0;
+    left: 0;
+    margin:0;       
+}
+nav a{
+    float:left;
+    text-decoration: none; /* pas d'héritage avec l'éffet souligner comme c'est standard pour  les liens sous tous les navigateurs */
+    color: #71bd14; /*couleur du text*/
+    background-color: rgb(32, 25, 25); /*couleur de fond*/
+    height: 2.8em; /*hauteur de la nav*/
+    line-height: 2.7em;/*interligne*/
+    padding: 0em 2em; /*marge intérieur - on les fait dans le sens des aiguilles d'une montre par convention (haut, droite,bas,gauche)*/
+    font-size: 1.2em;/*taille du text*/
+    transition: 2s;/*temps de transition lors du hover (suvol de la souris):ici 2 seconde*/
+}
+nav a:hover{ /*sélection de tous les liens au survol de la souris dans la nav*/
+    background-color: yellow;
+    color: black;
+}
+/* 1er contenaire */
+.conteneur{
+    width: 80%;
+    margin: 4% auto 2% auto;
+    background-color: #f0e9fd;
+    padding: 2rem;
+}
+mark{
+    background-color: #b5a7cf;
+}
+/* 2em contenaire */
+.conteneur1{
+    width: 80%;
+    margin: 2% auto;
+    background-color: #f0e9fd;
+    padding: 2%;
+    display: flex;
+}
+.conteneur2, .conteneur3{
+    width: 35%;
+    background-color: #f1fcde;
+    padding: 2%;
+    /* float: left; */
+}
+
+.conteneur2{
+    margin-right: 1.5%;
+}
+.conteneur3{
+    margin-left: 1.5%;
+}
+
+/*5ème container*/
+.conteneur4{
+    margin-top: 2em;
+}
+
+.clear{
+    clear: both;
+}
